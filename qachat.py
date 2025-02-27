@@ -4,8 +4,7 @@ load_dotenv()
 import streamlit as st
 import os
 import google.generativeai as genai
-from streamlit.runtime.scriptrunner.script_run_context 
-import get_script_run_ctx as get_report_ctx
+from streamlit.runtime.scriptrunner.script_run_context import get_script_run_ctx as get_report_ctx
 
 # genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
 genai.configure(api_key = "AIzaSyBlWBPkCXZ1zR1j9v0X970-ReGbFW-N7jE")
